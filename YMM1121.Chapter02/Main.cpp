@@ -1,11 +1,19 @@
-// YMM1121.Chapter02.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// This file contains the 'main' function. Program execution begins and ends there.
 
-#include <iostream>
+#include "Chapter.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    // Türkçe karakter desteði
+    setlocale(LC_ALL, "Turkish");
+
+    // Örnek #1
+    int sonuc = Toplama(3, 5);
+    printf("Toplam: %d\n", sonuc);
+
+    // Örnek #2
+    sonuc = Carpma(3, 5);
+    printf("Çarpým: %d\n", sonuc);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
