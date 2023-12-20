@@ -1,2 +1,2 @@
 # YMM1121
-# Algoritma ve Programlamaya Giriş
+Algoritma ve Programlamaya Giriş
