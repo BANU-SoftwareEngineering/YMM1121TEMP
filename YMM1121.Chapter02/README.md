@@ -16,8 +16,7 @@ Bir fonksiyon bildirimi, derleyiciye bu fonksiyonun var olduğunu, fonksiyonun b
 int topla(int a, int b);
 ```
 
-Satır sonunda noktalı virgül olduğuna dikkat edin. Bu satırla derleyiciye benim ```int``` tipinde geri dönüşü olan parametre olarak iki tane tamsayı (integer) tipinde sayı alan ve adı topla olan bir fonksiyonum var ileride ya da kodun başka bir yerinde bu fonksiyonu yazacağım demiş oluyoruz.
-Burada a ve b tiplerini fonksiyonun gövdesi dediğimiz kısımda kullanacağız.
+Satır sonunda noktalı virgül olduğuna dikkat edin. Bu satırla derleyiciye benim ```int``` tipinde geri dönüşü olan parametre olarak iki tane tamsayı (integer) tipinde değer alan ve adı topla olan bir fonksiyonum var, kodun ilerleyen kısmında bu fonksiyonu yazacağım demiş oluyoruz.
 
 Fonksiyon bildirimi yapılırken değişken isimlerini yazmak zorunda da değiliz:
 
