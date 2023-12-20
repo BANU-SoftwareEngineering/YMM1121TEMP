@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YMM1121.Chapter01", "YMM112
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YMM1121.Chapter02", "YMM1121.Chapter02\YMM1121.Chapter02.vcxproj", "{7E681F3C-B190-47DE-8D69-ED49850F23E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapters", "Chapters", "{32E6F39A-208C-469E-8C22-7515E7D462BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +36,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82FE44A8-E778-4142-B5A3-2E9713F96ED6} = {32E6F39A-208C-469E-8C22-7515E7D462BF}
+		{7E681F3C-B190-47DE-8D69-ED49850F23E2} = {32E6F39A-208C-469E-8C22-7515E7D462BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {028C65EE-7C8E-4FBE-996E-EAC362EF8B2A}
